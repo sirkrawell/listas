@@ -1,0 +1,60 @@
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 900px;
+	margin: auto;
+}
+
+.caja-video {
+	background-color: ;
+	display: inline-block;
+	margin-right: 40px;
+	transition: .5s  all;
+
+	
+}
+
+.caja-video:hover {
+	transform: scale(1.1);
+}
+
+
+
+.contenedor {
+	background-color: #ccc;
+	display: inline-block;
+	height: 120px;
+	width: 200px;
+	position: relative;
+	background-color: red;
+	
+}
+
+.contenedor img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+
+
+
+
+}
+
+.contenedor__hora {
+	font-family: helvetica;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 7px;
+	margin: ;
+	background-color: #444c;
+	color: #fff;
+}
+
+.contenedor__titulo {
+	font-family: helvetica;
+	font-weight: 600;
+	padding: 10px;
+	text-align: center;
+}

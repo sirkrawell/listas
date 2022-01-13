@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+body {
+	margin-top: 20px;
+}
+
+.contenedor,.content {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+
+.contenedor .titulo,
+.contenedor .navegacion,
+.contenedor .contenido,
+.contenedor .footer {
+	grid-column: 1/6;
+	border: #000 solid;
+	padding: 20px;
+	margin: 10px;
+}
+
+.contenido {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.contenido article {
+	padding: 7px;
+}
+
+.contenedor .recomendaciones {
+	height: 70px;
+	margin: 20px;
+	justify-items: center;
+}
